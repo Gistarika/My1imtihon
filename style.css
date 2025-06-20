@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 340px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    list-style-type: none;
+}
+ul li{
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+}
+.hh{
+    color: #DE2E54;
+}
+.btn{
+    background: none;
+    border: 2px solid #DE2E54;
+    color: #DE2E54;
+    border-radius: 8px;
+    padding: 12px 24px;
+   font-family: Open Sans;
+
+font-weight: 700;
+font-size: 15px;
+line-height: 150%;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+}
+.ota{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 199px;
+}
+.ota{
+    background-image: url("./bk.png");
+    background-size: cover;
+}
+.bola{
+    display: flex;
+    justify-content: center;
+    gap: 199px;
+}
+
+.left p{
+    font-family: Open Sans ;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+color: white;
+
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+letter-spacing: 0px;
+
+
+}
+.left{
+    margin-top: 137px;
+    
+}
+.left button{
+   background-color: #DE2E54CC; 
+   color: white;
+   padding: 12px 24px;
+   border: none;
+   border-radius: 8px;
+   font-family: Open Sans ;
+   margin-top: 48px;
+   text-transform: uppercase;
+}
+.title{
+    text-align: center;
+    font-family: Open Sans ;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+letter-spacing: 0px;
+margin-top: 61px;
+
+}
+.megabola1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+
+}
+.a2{
+ width: 600px;
+ 
+ 
+
+}
+.a2 h6{
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+opacity: 0.5;
+margin-top: 24px;
+}
+.a2 h2{
+    font-family: Open Sans ;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0px;
+
+}
+.megabola2{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.a3{
+    width: 600px; 
+   
+}
+.a3 h6{
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+opacity: 0.5;
+margin-top: 24px;
+}
+.a3 h2{
+       font-family: Open Sans ;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0px; 
+}
+h3{
+    text-align: Open Sans;
+    font-family: Inter;
+font-weight: 600;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+padding-top: 111px;
+padding-bottom: 111px;
+
+}
+.megaota{
+    background-color: #0EB4C1;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+    padding-bottom: 100px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    background-color: white;
+    width: 540px;
+    height: 331px;
+    border-radius: 10px;
+    padding: 27px 40px;
+}
+input{
+    padding-left: 32px;
+    padding-top:  7px;
+    padding-bottom: 6.11px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    font-family: Poppins;
+font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.25px;
+
+}
+.jj{
+    padding-left: 32px;
+    padding-top:  7px;
+    padding-bottom: 6.11px;
+    border-radius: 5px;
+    border: 1px solid #5E54A4; 
+    font-family: Poppins;
+font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.25px;
+
+}
+.bbb{
+    width: 460px;
+      padding-top:  7px;
+    padding-bottom: 6.11px;
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 5px;
+    background-color: #38CC8B;
+    box-shadow: 0px -4px 0px 0px #00000017 inset;
+  height: 39px;
+}
+.row2{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 340px;
+}
+footer{
+    background-color: black;
+
+}
+ol{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+ol li{
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+}
